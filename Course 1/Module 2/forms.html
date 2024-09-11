@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+
+  <body>
+    <div class="heading">
+      <h1>Forms</h1>
+      <h2>Labels and text based inputs</h2>
+    </div>
+    <br />
+    <form action="" class="form" id="form">
+      <div class="name">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Name"
+          value="Yash Singh"
+          required
+          minlength="3"
+          maxlength="20" />
+      </div>
+      <br />
+      <div class="email">
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          name=""
+          id="email"
+          placeholder="Enter Email"
+          required
+          value="singhyashkun@gmail.com"
+          disabled />
+      </div>
+      <br />
+      <div class="password">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name=""
+          id="password"
+          placeholder="Enter Password" />
+      </div>
+      <br />
+      <div class="submit">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
