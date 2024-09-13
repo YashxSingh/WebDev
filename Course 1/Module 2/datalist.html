@@ -10,28 +10,83 @@
       <h1>Datalist</h1>
     </div>
     <div class="container">
-        <form action="">
-            <label for="datalist">Preferred programming language</label>
-            <input list="lang" name="lang">
-            <datalist id="lang">
-                <option value="JS">JS</option>
-                <option value="Python">Python</option>
-                <option value="C">C</option>
-                <option value="Ruby">Ruby</option>
-                <option value="C++">C++</option>
-                <option value="Java">Java</option>
-            </datalist>
-        </form>
+      <form action="">
+        <label for="lang">Preferred programming language</label>
+        <input type="text" list="lang" name="lang" />
+        <datalist id="lang">
+          <option value="JS">JS</option>
+          <option value="Python">Python</option>
+          <option value="C">C</option>
+          <option value="Ruby">Ruby</option>
+          <option value="C++">C++</option>
+          <option value="Java">Java</option>
+        </datalist>
+      </form>
     </div>
+    <br />
     <div class="time">
-        <form>
-            <input type="time" name="time" id="time" list="time">
-            <datalist>
-                <option value="10 AM"></option>
-                <option value=""></option>
-                <option value=""></option>
-            </datalist>
-        </form>
+      <form>
+        <input type="time" name="time" id="time" list="popular_hours" />
+        <datalist id="popular_hours">
+          <option value="22:00"></option>
+          <option value=""></option>
+          <option value=""></option>
+        </datalist>
+      </form>
+    </div>
+    <br />
+    <div class="city">
+      <form>
+        <input type="text" name="city" id="city" list="city_list" />
+        <datalist id="city_list">
+          <option value="Delhi">Delhi</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Kolkata">Kolkata</option>
+          <option value="Chennai">Chennai</option>
+          <option value="Bengaluru">Bengaluru</option>
+          <option value="Jaipur">Jaipur</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Gurgaon">Gurgaon</option>
+        </datalist>
+      </form>
+    </div>
+    <br />
+    <div class="names">
+      <form action="">
+        <label for="text_1">Name:</label>
+        <input
+          type="text"
+          name="text_1"
+          id="text_1"
+          value="Yash Vardhan Singh"
+          placeholder="Enter your name here"
+          list="names" />
+        <datalist id="names">
+          <option value="Harsh Vardhan Singh">Harsh Vardhan Singh</option>
+          <option value="Yash Vardhan Singh">Yash Vardhan Singh</option>
+          <option value="Lata">Lata Kumari</option>
+          <option value="JSB">Jainendra Singh Baghel</option>
+        </datalist>
+      </form>
+    </div><br>
+    <div class="range">
+      <form action="">
+        <label for="temp">Range</label>
+        <input type="range" name="temp" id="temp" max="100" min="0" step="20" list="temps">
+        <datalist id="temps">
+          <option value="0">0</option>
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
+          <option value="40">40</option>
+          <option value="50">50</option>
+          <option value="60">60</option>
+          <option value="70">70</option>
+          <option value="80">80</option>
+          <option value="90">90</option>
+          <option value="100">100</option>
+        </datalist>
+      </form>
     </div>
   </body>
 </html>

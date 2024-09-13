@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML forms Challenge</h1>
+      <h2>Apartment Search</h2>
+    </header>
+    <main>
+      <div class="form">
+        <form method="post">
+          <div class="location">
+            <div class="location">
+              <label for="location_input">Location: </label>
+              <input
+                required
+                type="text"
+                name="input_location"
+                id="input_location"
+                list="location_list"
+                placeholder="Enter or choose" />
+              <datalist id="location_list">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Gurgaon">Gurgaon</option>
+              </datalist>
+            </div>
+            <br />
+            <div class="cost">
+              <label for="monthly_price">Monthly Price: </label>
+              <input
+                required
+                type="range"
+                max="8000"
+                min="2000"
+                step="1000"
+                list="price_list" />
+              <datalist id="price_list">
+                <option value="2000">2000</option>
+                <option value="3000">3000</option>
+                <option value="4000">4000</option>
+                <option value="5000">5000</option>
+                <option value="6000">6000</option>
+                <option value="7000">7000</option>
+                <option value="8000">8000</option>
+              </datalist>
+            </div>
+            <br />
+            <div class="bedrooms">
+              <label for="bedroom">Bedrooms: </label>
+              <select name="bedroom" id="bedroom" required>
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            <br />
+            <div class="bathrooms">
+              <label for="bathroom">Bathrooms: </label>
+              <select name="bathroom" id="bathroom" required>
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            <br />
+            <div class="cl_pets">
+              <label for="pets"
+                >Pets Allowed :
+                <input type="checkbox" name="pets" id="pets" />
+              </label>
+            </div>
+            <br />
+            <div class="cl_date">
+              <label for="date">Availability Date : </label>
+              <input required type="date" name="date" id="date" />
+            </div>
+            <br />
+            <div class="submit">
+              <input type="submit" value="Submit" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
