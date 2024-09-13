@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Map</title>
+  </head>
+  <body>
+    <header>
+      <h1>Image Map</h1>
+    </header>
+    <main>
+      <img
+        src="img.JPG"
+        alt="handsome people standing"
+        width="500px"
+        usemap="#map1" />
+      <map name="map1">
+        <area
+          shape="rect"
+          coords="0,0,500,200"
+          href="https://www.google.com/"
+          alt="Google" />
+        <area
+          shape="rect"
+          coords="0, 200, 500, 400"
+          href="https://www.amazon.in/"
+          alt="Amazon" />
+      </map>
+    </main>
+  </body>
+</html>
