@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<body>
+    <header>
+        <h1>Audio</h1>
+    </header>
+    <main>
+        <div class="audio_1">
+            <audio src="audio.mp3" type="audio/mp3" controls autoplay></audio>
+        </div>
+        <div class="audio_2">
+            <audio controls>
+                <source src="audio.mp3" >
+                <!-- Fallback -->
+                 <p>Your browser doesn't support audio element.</p>
+            </audio>
+        </div>
+        <div class="autoplay">
+            <audio src="audio.mp3" autoplay controls></audio>
+        </div>
+        <div class="audio_loop">
+            <audio src="audio.mp3" loop></audio>
+        </div>
+        <figure>
+            <figcaption>This is an audio</figcaption>
+            <audio src="audio.mp3" controls></audio>
+            <a href="audio.mp3">Download audio</a>
+        </figure>
+    </main>
+</body>
+</html>
