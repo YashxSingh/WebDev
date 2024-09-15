@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Attributes</title>
+</head>
+<body>
+    <header>
+        <h1>Global Attributes</h1>
+    </header>
+    <main>
+        <div class="accesskey">
+            <input accesskey="y" type="text" name="accesskey" id="accesskey">
+        </div>
+        <div class="contenteditable" contenteditable="true">
+            This content is edtable
+        </div>
+        <div class="draggable" draggable="true">
+            This content is draggable
+        </div>
+        <div class="hidden" hidden>
+            This content is hidden
+        </div>
+        <div class="inert" inert>
+            This content is inert
+        </div>
+        <div class="inputmode">
+            <input lang="hindi" inputmode="numeric" type="text" name="text" id="text" placeholder="Specifies type of virtual input method">
+        </div>
+        <div class="popover">
+            <div class="pop" id="pop" popover>
+                <h3>Welcome buds</h3>
+                <button popovertarget="Hello">Click again!</button>
+            </div>
+            <h1 popover id="Hello">HellO</h1>
+            <h1 popover id="hello2">HellOOOO</h1>
+            <button popovertarget="pop">Click Me!</button>
+            <p popovertarget="hello2">Hi there!!</p>
+        </div>
+        <div class="tabindex">
+            <button tabindex="5">Button 1</button>
+            <button tabindex="1">Button 2</button>
+            <button tabindex="4">Button 3</button>
+            <button tabindex="3">Button 4</button>
+            <button tabindex="2">Button 5</button>
+        </div>
+        <div class="autofocus">
+            <input autofocus type="text" name="text2" id="text2">
+        </div>
+    </main>
+</body>
+</html>
