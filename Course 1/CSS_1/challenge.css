@@ -1,0 +1,45 @@
+body {
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5e175b;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+a:active {
+    color: red;
+}
+
+ul {
+    padding: 0;
+}
+
+.list {
+    text-transform: uppercase;
+    background-color: #f4f4f4;
+    text-indent: 20px;
+}
+
+.para1 {
+    font-weight: bold;
+    color: rebeccapurple;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+}

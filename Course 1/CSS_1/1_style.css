@@ -1,0 +1,59 @@
+html {
+
+    background: linear-gradient(to bottom left, lightblue, blue) ;
+}
+
+body {
+    font-family: 'caveat', sans-serif;
+    /* Lnear Gradient */
+    /* background: linear-gradient(to bottom, darkblue, green) ; */
+
+    /* line-height: 1px; */
+    /* background-color: #cdabef; */
+
+    /* Color types */
+    /* Hex-codes
+    RGB
+    RGBA
+    HSL
+    HSLA
+    Opacity */
+
+    /* !important - Makes the css prop at highest specificity. */
+}
+
+header {
+  color: #C96868;
+  /* font-size: 1vw; */
+  text-decoration: underline;
+  font-family: 'Protest Guerrilla', sans-serif;
+}
+
+.sporty, .casual, .formal {
+    color: #FADFA1;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-weight: 50;
+    font-variant: normal;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.card {
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA3L2pvYjE0NDgtYmFja2dyb3VuZC0wNGEteF8xLmpwZw');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    color: #F5F7F8;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* body {
+    background-color: #C96868;
+} */

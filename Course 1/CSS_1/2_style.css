@@ -1,0 +1,27 @@
+body {
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: darkkhaki;
+}
+
+a:active {
+    color: brown;
+}
+
+a:focus {
+    color: rgb(183, 35, 35);
+}
+
+a:visited {
+    color: greenyellow;
+}
+
+.fa-check {
+    color: coral;
+}
