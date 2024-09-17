@@ -1,0 +1,33 @@
+body {
+    font-family: 'caveat', sans-serif;
+    /* line-height: 1px; */
+    /* background-color: #cdabef; */
+}
+
+header {
+  color: #C96868;
+  /* font-size: 1vw; */
+  text-decoration: underline;
+  font-family: 'Protest Guerrilla', sans-serif;
+}
+
+.sporty, .casual, .formal {
+    color: #FADFA1;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-weight: 50;
+    font-variant: normal;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+p {
+    color: #F5F7F8;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* body {
+    background-color: #C96868;
+} */
