@@ -1,0 +1,26 @@
+.header{
+    /* position: relative;
+    left: 50%; */
+    text-align: center;
+}
+
+.outer-box{
+    /* display: inline-block; */
+    background-color: rgb(40, 51, 61);
+    height: 300px;
+    width: 300px;
+    /* position: relative;
+    left: 35%; */
+    margin-inline: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    color: white;
+}
+
+.text-label{
+    /* color: white; */
+}
+
+.heading{
+    
+}

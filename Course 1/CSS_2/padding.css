@@ -1,0 +1,19 @@
+.box {
+    background-color: #6256CA;
+    color: #FDFAD9;
+    /* width: 50%; */
+    /* max-width: 800px; */
+    /* Uniform */
+    /* padding: 20px; */
+
+    /* TRBM */
+    /* padding: 5px 10px 15px 20px; */
+
+    /* TB-LR */
+    /* padding: 20px 40px; */
+
+    /* T-LR-B */
+    padding: 20px 40px 30px;
+    margin: 20px;
+    margin-right: 50px
+}
