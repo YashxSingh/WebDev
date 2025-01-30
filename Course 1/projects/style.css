@@ -1,26 +1,75 @@
-.header{
-    /* position: relative;
-    left: 50%; */
-    text-align: center;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.outer-box{
-    /* display: inline-block; */
-    background-color: rgb(40, 51, 61);
-    height: 300px;
-    width: 300px;
-    /* position: relative;
-    left: 35%; */
-    margin-inline: auto;
-    /* margin-left: auto;
-    margin-right: auto; */
-    color: white;
+body {
+  background: #f1f1f1;
 }
 
-.text-label{
-    /* color: white; */
+.header {
+  text-align: center;
 }
 
-.heading{
-    
+.card {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  background: rgb(40, 51, 61);
+  border-radius: 10px;
+  width: 400px;
+  margin: 100px auto;
+  color: white;
+  text-align: center;
+  padding: 60px 60px;
+}
+
+.card h1 {
+  font-weight: 300;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.text-label {
+  font-size: 15px;
+  margin-bottom: 30px;
+  /* color: white; */
+  /* margin-top: 30px; */
+}
+
+.card input[type="text"] {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding: 8px;
+  text-align: center;
+  border-radius: 100px;
+  background: #f1f1f1;
+  border: 2px solid rgba(86, 0, 156, 0.212);
+}
+
+.card input[type="button"] {
+  padding: 5px 30px;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 10px;
+  border-width: 0px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    158deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(98, 98, 138, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  cursor: pointer;
+}
+
+.card input[type="button"]:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    158deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(200, 200, 255, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
